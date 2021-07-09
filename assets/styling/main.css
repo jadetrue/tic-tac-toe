@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding: 0;
+  background-color: #ddd;
+}
+.grid-item {
+  margin: auto;
+  background-color: white;
+  padding: 10vh;
+}
+
+#board {
+  margin: auto;
+  height: 80vh;
+  width: 50vw;
+  border: 1px solid #c2dbdd;
+  box-shadow: 0 0 10px #c2dbdd;
+}

@@ -1,0 +1,21 @@
+.container { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 0;
+    background-color: $grid-gap;
+
+   &-item {
+       margin: auto;
+       background-color: white;
+       padding: 10vh;
+    } 
+}

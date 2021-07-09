@@ -1,5 +1,3 @@
-"use strict";
-
 document.getElementById("1").addEventListener("click", clickBoard);
 document.getElementById("2").addEventListener("click", clickBoard);
 document.getElementById("3").addEventListener("click", clickBoard);
@@ -11,5 +9,5 @@ document.getElementById("8").addEventListener("click", clickBoard);
 document.getElementById("9").addEventListener("click", clickBoard);
 
 function clickBoard() {
-  alert("Hello you clicked the board");
+    alert("Hello you clicked the board");
 }
