@@ -11,3 +11,5 @@ document.getElementById("9").addEventListener("click", clickBoard);
 function clickBoard() {
     alert("Hello you clicked the board");
 }
+
+const grid = document.getElementsByClassName("grid");
