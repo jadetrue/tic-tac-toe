@@ -1,3 +1,18 @@
-body {
-  background-color: orange;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+#board {
+  margin: auto;
+  height: 80vh;
+  width: 50vw;
+  border: 1px solid #c2dbdd;
+  box-shadow: 0 0 10px #c2dbdd;
 }
