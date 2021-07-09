@@ -11,9 +11,17 @@ body, html {
     align-items: center;
 }
 
+p { 
+    padding: 0;
+}
+
+
 $primary-color: #a2b5b8;
 $border-color: #c2dbdd;
 $grid-gap: #ddd;
 
 $player-one: #3a8ad4;
 $player-two: #3abcd3;
+
+$bp-desktop: 1440px;
+$bp-tablet: 768px;
